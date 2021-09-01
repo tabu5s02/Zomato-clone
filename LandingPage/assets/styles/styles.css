@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
+}
+
+*:focus{
+   border: none;
+   outline: none; 
 }
 
 a{
@@ -22,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 25px 0px;
+    padding:25px 0px;
     width: 90%;
     margin: 0px auto ;
 }
@@ -46,3 +52,75 @@ nav div.nav-item{
     font-size: 1.2rem;
     font-weight: 200;
 }
+
+header div.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 80% ;
+    margin: 0px auto;
+    
+}
+
+header img.logo{
+    width: 300px;
+}
+
+header h1{
+    font-size: 2.3rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+header div.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+}
+
+div.search-box div{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin:0px 50px ;
+}
+
+header div.search-box i{
+    margin: 10px;
+}
+
+header div.search-box div.select i{
+    color:#F57082 ;
+}
+
+header div.search-box div.input i{
+    color: #828282b7;
+}
+
+header div.search-box div.seperator {
+    height: 70%;
+    background-color: #8282829b;
+    width: 4px ;
+}
+
+header div.search-box div.input {
+    flex-grow: 30;
+    margin-right: 0px;
+}
+
+header div.search-box div.input input {
+    width: 100%;
+    font-size: 1rem;
+}
+
+header div.search-box div.select select {
+    color: #3a3838b7;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
