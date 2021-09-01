@@ -105,22 +105,56 @@ header div.search-box div.input i{
 header div.search-box div.seperator {
     height: 70%;
     background-color: #8282829b;
-    width: 4px ;
+    width: 2px ;
 }
 
 header div.search-box div.input {
-    flex-grow: 30;
-    margin-right: 0px;
+    flex-grow: 80;
 }
 
 header div.search-box div.input input {
     width: 100%;
     font-size: 1rem;
+    align-self: center;
 }
 
 header div.search-box div.select select {
-    color: #3a3838b7;
-    font-size: 0.9rem;
-    font-weight: 500;
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #757575;
 }
 
+section.nearby {
+    min-height: 40vh;
+    
+}
+
+section.nearby div.container {
+    width: 90%;
+    margin: 0px auto;
+    
+    text-align: center;
+    padding: 40px 0px;
+}
+
+section.nearby div.container h3{
+    font-size: 2.2rem;
+    font-weight: unset;
+}
+
+section.nearby div.box {
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section.nearby div.box:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
